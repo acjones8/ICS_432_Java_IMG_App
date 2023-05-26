@@ -1,0 +1,403 @@
+The system is: Linux - 6.0.10-gentoo-dist - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/3.25.0/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-wawu2j
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6fb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6fb5.dir/build.make CMakeFiles/cmTC_b6fb5.dir/build
+gmake[1]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-wawu2j'
+Building C object CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221008/work/gcc-12-20221008/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221008 p1' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221008 (Gentoo 12.2.1_p20221008 p1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b6fb5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCYLYTi.s
+GNU C17 (Gentoo 12.2.1_p20221008 p1) version 12.2.1 20221008 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20221008, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+warning: MPFR header version 4.1.0-p13 differs from library version 4.1.1-p1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (Gentoo 12.2.1_p20221008 p1) version 12.2.1 20221008 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20221008, GMP version 6.2.1, MPFR version 4.1.0-p13, MPC version 1.2.1, isl version isl-0.24-GMP
+
+warning: MPFR header version 4.1.0-p13 differs from library version 4.1.1-p1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c971fc4ebc056fb5a3096da20cbab96e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o /tmp/ccCYLYTi.s
+GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (Gentoo 2.39 p5) 2.39.0
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b6fb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6fb5.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -o cmTC_b6fb5 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221008/work/gcc-12-20221008/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221008 p1' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221008 (Gentoo 12.2.1_p20221008 p1) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6fb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fb5.'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTm4t9A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b6fb5 /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../.. CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6fb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fb5.'
+gmake[1]: Leaving directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-wawu2j'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-wawu2j]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6fb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6fb5.dir/build.make CMakeFiles/cmTC_b6fb5.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-wawu2j']
+  ignore line: [Building C object CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221008/work/gcc-12-20221008/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c c++ fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221008 p1' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32 m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221008 (Gentoo 12.2.1_p20221008 p1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b6fb5.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccCYLYTi.s]
+  ignore line: [GNU C17 (Gentoo 12.2.1_p20221008 p1) version 12.2.1 20221008 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221008  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.0-p13 differs from library version 4.1.1-p1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Gentoo 12.2.1_p20221008 p1) version 12.2.1 20221008 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221008  GMP version 6.2.1  MPFR version 4.1.0-p13  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.0-p13 differs from library version 4.1.1-p1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c971fc4ebc056fb5a3096da20cbab96e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o /tmp/ccCYLYTi.s]
+  ignore line: [GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (Gentoo 2.39 p5) 2.39.0]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b6fb5]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6fb5.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -o cmTC_b6fb5 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221008/work/gcc-12-20221008/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c c++ fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221008 p1' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32 m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221008 (Gentoo 12.2.1_p20221008 p1) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b6fb5' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b6fb5.']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTm4t9A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b6fb5 /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../.. CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccTm4t9A.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b6fb5] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_b6fb5.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+
+The system is: Linux - 6.0.9-xanmod1-dist - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2807/fast && gmake[1]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b2807.dir/build.make CMakeFiles/cmTC_b2807.dir/build
+gmake[2]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs'
+Building C object CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221203/work/gcc-12-20221203/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221203 p3' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221203 (Gentoo 12.2.1_p20221203 p3) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b2807.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccXMGDHy.s
+GNU C17 (Gentoo 12.2.1_p20221203 p3) version 12.2.1 20221203 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20221203, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed
+ /usr/include
+End of search list.
+GNU C17 (Gentoo 12.2.1_p20221203 p3) version 12.2.1 20221203 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 12.2.1 20221203, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 847c1bd9a907925900fc98c04b996258
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o /tmp/ccXMGDHy.s
+GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (Gentoo 2.39 p5) 2.39.0
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_b2807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2807.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -o cmTC_b2807 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221203/work/gcc-12-20221203/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c,c++,fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221203 p3' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32,m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.1 20221203 (Gentoo 12.2.1_p20221203 p3) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2807' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2807.'
+ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIh84OH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b2807 /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../.. CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2807' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2807.'
+gmake[2]: Leaving directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs'
+gmake[1]: Leaving directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12/include;/usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2807/fast && gmake[1]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b2807.dir/build.make CMakeFiles/cmTC_b2807.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/CMakeScratch/TryCompile-AvH7Fs']
+  ignore line: [Building C object CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221203/work/gcc-12-20221203/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c c++ fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221203 p3' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32 m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221203 (Gentoo 12.2.1_p20221203 p3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/']
+  ignore line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b2807.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccXMGDHy.s]
+  ignore line: [GNU C17 (Gentoo 12.2.1_p20221203 p3) version 12.2.1 20221203 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221203  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Gentoo 12.2.1_p20221203 p3) version 12.2.1 20221203 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.1 20221203  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 847c1bd9a907925900fc98c04b996258]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o /tmp/ccXMGDHy.s]
+  ignore line: [GNU assembler version 2.39.0 (x86_64-pc-linux-gnu) using BFD version (Gentoo 2.39 p5) 2.39.0]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_b2807]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2807.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -o cmTC_b2807 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /var/tmp/portage/sys-devel/gcc-12.2.1_p20221203/work/gcc-12-20221203/configure --host=x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --prefix=/usr --bindir=/usr/x86_64-pc-linux-gnu/gcc-bin/12 --includedir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include --datadir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12 --mandir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/man --infodir=/usr/share/gcc-data/x86_64-pc-linux-gnu/12/info --with-gxx-include-dir=/usr/lib/gcc/x86_64-pc-linux-gnu/12/include/g++-v12 --with-python-dir=/share/gcc-data/x86_64-pc-linux-gnu/12/python --enable-languages=c c++ fortran --enable-obsolete --enable-secureplt --disable-werror --with-system-zlib --enable-nls --without-included-gettext --disable-libunwind-exceptions --enable-checking=release --with-bugurl=https://bugs.gentoo.org/ --with-pkgversion='Gentoo 12.2.1_p20221203 p3' --with-gcc-major-version-only --disable-esp --enable-libstdcxx-time --disable-libstdcxx-pch --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-clocale=gnu --enable-multilib --with-multilib-list=m32 m64 --disable-fixed-point --enable-targets=all --enable-libgomp --disable-libssp --disable-libada --disable-cet --disable-systemtap --disable-valgrind-annotations --disable-vtable-verify --disable-libvtv --with-zstd --enable-lto --with-isl --disable-isl-version-check --enable-default-pie --enable-default-ssp --with-build-config=bootstrap-lto]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.1 20221203 (Gentoo 12.2.1_p20221203 p3) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/12/:/usr/libexec/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/12/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b2807' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b2807.']
+  link line: [ /usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2 -plugin /usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIh84OH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b2807 /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/12 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../.. CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/libexec/gcc/x86_64-pc-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/libexec/gcc/x86_64-pc-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIh84OH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b2807] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_b2807.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/12/crtendS.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/12;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib]
+  implicit fwks: []
+
+

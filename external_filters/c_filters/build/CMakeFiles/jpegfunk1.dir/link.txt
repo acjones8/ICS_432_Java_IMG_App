@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic -fopenmp CMakeFiles/jpegfunk1.dir/src/jpegfunk1.c.o -o jpegfunk1  -ljpeg -lm 

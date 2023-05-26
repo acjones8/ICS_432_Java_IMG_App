@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic -fopenmp CMakeFiles/jpegedge.dir/src/jpegedge.c.o -o jpegedge  -ljpeg -lm 

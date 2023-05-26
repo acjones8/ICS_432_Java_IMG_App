@@ -1,0 +1,9 @@
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/jpegedge.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/jpegfunk1.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/jpegfunk2.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/edit_cache.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/list_install_components.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/install.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/install/local.dir
+/home/alex/Documents/University_New/Fall_2022/ICS_432/src/HW_repos/ics432imgapp_fall22_team4/external_filters/c_filters/build/CMakeFiles/install/strip.dir

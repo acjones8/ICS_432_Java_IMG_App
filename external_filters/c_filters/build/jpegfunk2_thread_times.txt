@@ -1,0 +1,4 @@
+Time for thread 1: 204.44 seconds
+Time for thread 2: 205.46 seconds
+Time for thread 3: 205.48 seconds
+Time for thread 0: 205.51 seconds
